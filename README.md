@@ -117,3 +117,14 @@ Output:
 - I would like to deliver in a functional paradigm, but I don't have mastery of it yet.
 - I am completely open to suggestions for improvements or replacement/use of patterns.
 - Thank you for being able to participate in this process!
+
+<br>
+
+<h3>Author</h3>
+
+<a href="https://www.linkedin.com/in/danielpereiralima/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/96916005?v=4" width="100px;" alt=""/>
+
+Made by Daniel Pereira Lima 👋🏽 Contact!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Daniel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/danielpereiralima/)](https://www.linkedin.com/in/danielpereiralima/)
