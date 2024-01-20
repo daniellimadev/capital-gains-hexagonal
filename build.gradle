@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+    id 'groovy'
+    id 'application'
+    id 'jacoco'
+}
+
+group 'br.com.github.daniellimadev.stock'
+version '0.1'
+
+application {
+    mainClass = 'br.com.github.daniellimadev.stock.infra.input.cli.CapitalGainsCommand'
+}
+
+run {
+    standardInput = System.in
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation  'io.vavr:vavr:0.10.4',
+                    'com.fasterxml.jackson.core:jackson-databind:2.14.1'
+
+    testImplementation platform ('org.spockframework:spock-bom:2.3-groovy-4.0')
+    testImplementation 'org.spockframework:spock-core'
+}
+
+test {
+    finalizedBy jacocoTestReport // report is always generated after tests run
+    useJUnitPlatform()
+}
+jacocoTestReport {
+    dependsOn test // tests are required to run before generating the report
+}
