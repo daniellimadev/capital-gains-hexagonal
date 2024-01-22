@@ -107,7 +107,6 @@ Output:
 - Running in the IDE:
 - Go to the cli folder and run main from the CapitalGainsCommand.java file
 
-```
 
 # Considerations
 
